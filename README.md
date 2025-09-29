@@ -46,9 +46,3 @@ Each prompt is converted to:
 
 The heuristics prefer explicit sections like `Context:` or bullet lists but gracefully fall back to sentence-level analysis if none exist.
 
-## Manual Test Checklist
-- [ ] ChatGPT: type a multi-line prompt; confirm overlay updates, metadata counts, and clarifying questions.
-- [ ] Claude: paste an instruction; ensure detection from the textarea still triggers the overlay.
-- [ ] Gemini: enter text into the prompt field (contenteditable) and verify live JSON.
-- [ ] Click **Copy JSON** and paste elsewhere to confirm full payload.
-- [ ] Collapse/expand the panel to confirm state toggles.
